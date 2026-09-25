@@ -27,7 +27,7 @@ export function DemoPlayer() {
         <video
           ref={videoRef}
           className="hero-preview__video"
-          src="/assets/demo-elephorm.mov"
+          src="/assets/demo-elephorm.mp4"
           controls
           playsInline
           onEnded={handleClose}
