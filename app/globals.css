@@ -412,6 +412,56 @@ img {
   font-size: 1.05rem;
 }
 
+/* --- Demo video player state --- */
+
+button.hero-preview {
+  width: 100%;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.hero-preview--playing {
+  background: #000;
+}
+
+.hero-preview__video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.hero-preview__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: rgb(0 0 0 / 55%);
+  color: white;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background 150ms ease;
+}
+
+.hero-preview__close:hover {
+  background: rgb(0 0 0 / 75%);
+}
+
+.hero-preview__close svg {
+  width: 18px;
+  height: 18px;
+}
+
 .meta-pills {
   display: flex;
   flex-wrap: wrap;

@@ -5,7 +5,6 @@ import {
   ChevronRight,
   Clock3,
   FolderKanban,
-  Play,
   ShieldCheck,
   Sparkles,
   Target,
@@ -14,6 +13,7 @@ import {
 
 import { BrandHeader } from "@/components/brand-header"
 import { CourseCurriculum } from "@/components/course-curriculum"
+import { DemoPlayer } from "@/components/demo-player"
 import { chapters, course } from "@/lib/course-data"
 
 const firstLesson = chapters[0].lessons[0]
@@ -30,17 +30,7 @@ export default function Home() {
             <h1 id="course-title">{course.title}</h1>
             <p className="course-hero__promise">{course.promise}</p>
 
-            <Link className="hero-preview" href={`/lecon/${firstLesson.slug}`}>
-              <img src="/assets/macos-desktop-apple.png" alt="Bureau macOS avec widgets" />
-              <span className="hero-preview__veil" />
-              <span className="hero-preview__play" aria-hidden="true">
-                <Play fill="currentColor" />
-              </span>
-              <span className="hero-preview__caption">
-                <small>Découvrir la formation</small>
-                <strong>Voir la première leçon</strong>
-              </span>
-            </Link>
+            <DemoPlayer />
 
             <div className="meta-pills" aria-label="Informations sur la formation">
               <span>
