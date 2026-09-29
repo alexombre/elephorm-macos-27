@@ -97,25 +97,33 @@ export default function Home() {
               </div>
             </div>
             <p>
-              Cette formation accompagne la prise en main de macOS 27 Golden Gate dans un
-              contexte bureautique moderne. Les réglages essentiels, le Finder, Spotlight,
-              Safari, Mail et iCloud sont abordés à travers des gestes immédiatement
+              Cette formation accompagne les utilisateurs dans la prise en main de macOS 27
+              Golden Gate pour un usage bureautique moderne. Elle présente les réglages
+              essentiels, l’interface Liquid Glass, le Finder, la gestion des fenêtres,
+              Spotlight, Safari, Mail et iCloud à travers des manipulations directement
               applicables.
             </p>
             <p>
-              Une place centrale est accordée à Siri AI, au contexte personnel, à
-              l’Intelligence visuelle, aux actions Spotlight et aux automatisations en langage
-              naturel. Chaque résultat produit par l’intelligence artificielle est vérifié à sa
-              source avant d’être réutilisé.
+              Une place centrale est accordée aux nouveautés apparues depuis macOS 15
+              Sequoia et enrichies dans macOS 26 Tahoe puis macOS 27 : recopie de l’iPhone,
+              disposition des fenêtres, app Mots de passe, actions dans Spotlight,
+              automatisations intelligentes, Siri AI, compréhension du contexte personnel,
+              Intelligence visuelle et rédaction assistée.
+            </p>
+            <p>
+              Chaque chapitre répond à une situation professionnelle : préparer son Mac,
+              organiser un projet, retrouver une information, analyser un PDF, rédiger un
+              e-mail, planifier une réunion, partager un dossier ou automatiser un suivi.
             </p>
             <div className="project-callout">
               <Sparkles aria-hidden="true" />
               <div>
                 <strong>Mission Projet Horizon</strong>
                 <p>
-                  Pendant toute la formation, l’apprenant transforme un brief client en dossier
-                  organisé, synthèse vérifiée, réunion planifiée, espace partagé et archive
-                  sécurisée.
+                  L’apprenant prépare un dossier client fictif et réalise une journée de
+                  travail : configurer son environnement, organiser les documents, effectuer une
+                  recherche, analyser un PDF, rédiger un message, planifier une réunion, puis
+                  partager et archiver les livrables.
                 </p>
               </div>
             </div>
@@ -125,9 +133,9 @@ export default function Home() {
             <section className="content-card compact-card">
               <h2>Pré-requis</h2>
               <p>
-                Un Mac Apple Silicon compatible avec macOS 27, une connexion Internet et un
-                compte Apple. Certaines fonctions peuvent dépendre de la langue, de la région ou
-                de la version utilisée.
+                Un Mac Apple Silicon compatible avec macOS 27, une connexion Internet et, pour
+                certains exercices, un compte Apple et un iPhone. Certaines fonctions peuvent
+                dépendre de la langue, de la région ou de la version utilisée.
               </p>
             </section>
             <section className="content-card compact-card">

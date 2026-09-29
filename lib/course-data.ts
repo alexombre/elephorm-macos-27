@@ -18,7 +18,7 @@ export type Chapter = {
 export const course = {
   title: "Maîtriser la bureautique avec macOS 27 Golden Gate",
   eyebrow: "FORMATION",
-  updatedAt: "22/09/2026",
+  updatedAt: "29/09/2026",
   duration: "4 h 20 min",
   lessonCount: 38,
   chapterCount: 9,
@@ -26,13 +26,15 @@ export const course = {
   promise:
     "Organisez, sécurisez et exploitez votre Mac au quotidien, puis accélérez votre travail avec Spotlight, Siri AI et les apps Apple.",
   outcomes: [
-    "Mettre à niveau son Mac en protégeant ses données et ses réglages essentiels.",
-    "Organiser, retrouver, synchroniser et partager ses fichiers avec le Finder et iCloud.",
+    "Mettre à niveau son Mac en protégeant ses données.",
+    "Personnaliser l\u2019interface Liquid Glass et construire un espace de travail lisible.",
+    "Organiser, retrouver, synchroniser et partager ses fichiers.",
     "Travailler plus vite avec les fenêtres, Spotlight et les raccourcis essentiels.",
     "Utiliser Siri AI et l’Intelligence visuelle dans des situations professionnelles.",
-    "Organiser une veille dans Safari et créer une extension simple en langage naturel.",
-    "Transformer ses e-mails en rendez-vous, rappels et automatisations contrôlées.",
-    "Sécuriser ses comptes, ses autorisations et les données d’un projet client.",
+    "Naviguer avec Safari et sécuriser ses identifiants avec Mots de passe.",
+    "Organiser ses e-mails, rendez-vous, notes, tâches et automatisations.",
+    "Collaborer avec iCloud et les fonctions de Continuité.",
+    "Protéger son Mac et résoudre les problèmes courants.",
   ],
 }
 
@@ -45,7 +47,7 @@ export const chapters: Chapter[] = [
     lessons: [
       {
         slug: "preparer-mac-mise-a-niveau-macos-27",
-        title: "Préparer son Mac avant la mise à niveau vers macOS 27",
+        title: "Vérifier la compatibilité, sauvegarder puis installer macOS 27",
         duration: "08:00",
         description:
           "Vérifiez le modèle et la puce du Mac, l’espace disponible, la compatibilité des apps importantes et l’état de la sauvegarde. Repérez ensuite le lancement de la mise à jour et les contrôles utiles après le redémarrage.",
@@ -54,7 +56,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "reperes-bureau-dock-barre-menus",
-        title: "Prendre ses repères dans le Bureau, le Dock et la barre des menus",
+        title: "Découvrir le Bureau, le Dock et la barre des menus",
         duration: "06:00",
         description:
           "Identifiez les zones de l’interface, ouvrez et quittez une app, épinglez les outils utiles dans le Dock et accédez rapidement aux réglages principaux.",
@@ -63,7 +65,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "regler-liquid-glass-lisibilite",
-        title: "Régler Liquid Glass pour préserver la lisibilité",
+        title: "Ajuster Liquid Glass, le contraste et l’apparence de l’interface",
         duration: "06:00",
         description:
           "Comparez transparence et contraste sur plusieurs fenêtres, puis adaptez l’apparence, la taille du texte et les réglages d’accessibilité utiles.",
@@ -72,7 +74,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "tableau-bord-widgets-centre-controle",
-        title: "Construire un tableau de bord avec le Centre de contrôle et les widgets",
+        title: "Personnaliser le Centre de contrôle, les dossiers et les widgets",
         duration: "06:00",
         description:
           "Personnalisez les commandes rapides, ajoutez les widgets Calendrier et Rappels, organisez le Bureau et limitez les notifications inutiles.",
@@ -89,7 +91,7 @@ export const chapters: Chapter[] = [
     lessons: [
       {
         slug: "creer-espace-projet-finder",
-        title: "Créer l’espace de travail Projet Horizon dans le Finder",
+        title: "Naviguer dans le Finder et personnaliser sa barre latérale",
         duration: "07:00",
         description:
           "Parcourez les vues du Finder, affichez les informations utiles, personnalisez la barre latérale et créez une arborescence simple pour le brief, la recherche, la production et la livraison.",
@@ -98,7 +100,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "classer-tags-favoris-noms",
-        title: "Classer les documents avec les tags, favoris et noms cohérents",
+        title: "Classer ses fichiers avec les dossiers, les tags et les favoris",
         duration: "06:00",
         description:
           "Renommez plusieurs fichiers selon une convention, déplacez-les sans les dupliquer, attribuez des tags de statut et ajoutez le projet aux favoris.",
@@ -107,7 +109,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "annoter-signer-pdf-apercu",
-        title: "Lire, annoter et signer un PDF avec Coup d’œil et Aperçu",
+        title: "Prévisualiser, annoter et signer un PDF avec Coup d’œil et Aperçu",
         duration: "08:00",
         description:
           "Prévisualisez le brief, surlignez une échéance, ajoutez une note, réorganisez une page et insérez une signature fictive avant d’exporter une copie.",
@@ -116,7 +118,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "rechercher-fichier-filtres-finder",
-        title: "Retrouver un fichier avec les filtres du Finder",
+        title: "Rechercher un document avec le Finder et ses filtres",
         duration: "07:00",
         description:
           "Recherchez par nom, type, date et tag, combinez plusieurs critères et vérifiez le chemin du fichier avant toute modification.",
@@ -125,7 +127,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "partager-airdrop-icloud-lien",
-        title: "Partager un document avec AirDrop, iCloud Drive ou un lien",
+        title: "Partager un fichier avec AirDrop, iCloud Drive ou un lien",
         duration: "06:00",
         description:
           "Comparez partage ponctuel et collaboration durable, générez un lien et contrôlez les droits de lecture ou de modification.",
@@ -142,7 +144,7 @@ export const chapters: Chapter[] = [
     lessons: [
       {
         slug: "organiser-fenetres-mission-control",
-        title: "Organiser ses fenêtres pour comparer plusieurs sources",
+        title: "Disposer ses fenêtres en mosaïque et naviguer avec Mission Control",
         duration: "07:00",
         description:
           "Placez le PDF, Safari et Notes côte à côte, redimensionnez les zones, utilisez Mission Control et créez un espace de travail séparé.",
@@ -151,7 +153,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "retrouver-information-spotlight",
-        title: "Retrouver une information avec Spotlight",
+        title: "Retrouver apps, fichiers et contenus avec Spotlight",
         duration: "07:00",
         description:
           "Lancez une recherche au clavier, filtrez les résultats, prévisualisez un document et retrouvez une phrase présente dans un fichier ou un e-mail.",
@@ -160,7 +162,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "actions-spotlight-presse-papiers",
-        title: "Agir depuis Spotlight et réutiliser le presse-papiers",
+        title: "Utiliser les actions et l’historique du presse-papiers dans Spotlight",
         duration: "07:00",
         description:
           "Ouvrez un fichier à son emplacement, lancez une action disponible et récupérez un élément récent du presse-papiers avant de le vérifier.",
@@ -169,7 +171,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "raccourcis-clavier-dictee",
-        title: "Gagner du temps avec les raccourcis clavier et la dictée",
+        title: "Accélérer son travail avec les raccourcis clavier et la dictée",
         duration: "07:00",
         description:
           "Utilisez les raccourcis essentiels pour ouvrir, basculer, copier et rechercher, puis dictez un court paragraphe et corrigez les erreurs de transcription.",
@@ -186,7 +188,7 @@ export const chapters: Chapter[] = [
     lessons: [
       {
         slug: "activer-apple-intelligence-autorisations",
-        title: "Activer Apple Intelligence et contrôler ses autorisations",
+        title: "Vérifier la compatibilité, les langues et la confidentialité d’Apple Intelligence",
         duration: "07:00",
         description:
           "Vérifiez l’appareil, la langue, la région et l’état d’activation, puis examinez les accès accordés à Siri et les fonctions encore soumises à disponibilité.",
@@ -195,7 +197,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "dialoguer-nouvelle-app-siri",
-        title: "Dialoguer avec la nouvelle app Siri",
+        title: "Découvrir la nouvelle app Siri et formuler une demande efficace",
         duration: "07:00",
         description:
           "Ouvrez Siri comme une app, saisissez puis reformulez une demande, poursuivez une conversation et comparez une consigne vague à une consigne structurée.",
@@ -204,7 +206,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "retrouver-information-contexte-personnel",
-        title: "Retrouver une information avec le contexte personnel",
+        title: "Retrouver une information grâce au contexte personnel",
         duration: "07:00",
         description:
           "Demandez une information présente dans les données fictives, ouvrez la source proposée et affinez la demande lorsque la réponse manque de précision.",
@@ -213,7 +215,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "creer-action-app-siri-spotlight",
-        title: "Créer une action dans une app depuis Siri ou Spotlight",
+        title: "Déclencher des actions dans les apps depuis Siri et Spotlight",
         duration: "07:00",
         description:
           "Transformez une information retrouvée en note ou en rappel, contrôlez le titre, la date et la destination, puis corrigez une action mal interprétée.",
@@ -222,7 +224,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "analyser-pdf-image-intelligence-visuelle",
-        title: "Analyser un PDF et une image avec l’Intelligence visuelle",
+        title: "Analyser une image ou un PDF avec l’Intelligence visuelle",
         duration: "08:00",
         description:
           "Sélectionnez une zone, identifiez un élément, extrayez ou traduisez une information et posez une question sur le contenu affiché avant de comparer le résultat à la source.",
@@ -231,7 +233,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "rediger-adapter-texte-outils-ecriture",
-        title: "Rédiger et adapter un texte avec les outils d’écriture",
+        title: "Rédiger, corriger et adapter le ton d’un texte avec Siri",
         duration: "07:00",
         description:
           "Partez d’un brouillon, corrigez l’orthographe, raccourcissez, structurez et modifiez le ton sans altérer les faits.",
@@ -240,7 +242,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "verifier-reponse-ia-proteger-donnees",
-        title: "Vérifier une réponse IA et protéger les données du projet",
+        title: "Vérifier les réponses, protéger ses données et comprendre les limites",
         duration: "07:00",
         description:
           "Retrouvez la source, vérifiez noms, dates et chiffres, identifiez les incertitudes et retirez toute donnée qui n’est pas utile à la demande.",
@@ -256,40 +258,40 @@ export const chapters: Chapter[] = [
     objective: "Organiser sa navigation et renforcer la sécurité des identifiants.",
     lessons: [
       {
-        slug: "profils-groupes-onglets-safari",
-        title: "Séparer sa veille avec les profils et groupes d’onglets Safari",
+        slug: "configurer-safari-profils",
+        title: "Configurer Safari et séparer ses activités avec les profils",
         duration: "07:00",
         description:
-          "Créez un profil professionnel, ouvrez plusieurs ressources et regroupez-les par thème en distinguant favoris, liste de lecture et groupes d’onglets.",
-        goal: "Retrouver une session de veille sans mélanger navigation personnelle et professionnelle.",
-        projectStep: "Créer le groupe d’onglets « Horizon - Veille ».",
+          "Configurez les réglages essentiels de Safari, créez un profil professionnel et séparez navigation personnelle et professionnelle avec des favoris et extensions dédiés.",
+        goal: "Obtenir un environnement Safari organisé et adapté à son activité.",
+        projectStep: "Créer le profil « Horizon » avec ses favoris dédiés.",
       },
       {
-        slug: "surveiller-page-me-prevenir",
-        title: "Surveiller une page web avec « Me prévenir »",
+        slug: "onglets-surveiller-page-me-prevenir",
+        title: "Regrouper les onglets et surveiller une page avec « Me prévenir »",
         duration: "07:00",
         description:
-          "Activez le suivi d’une page compatible, identifiez le changement attendu, retrouvez les notifications et désactivez le suivi lorsqu’il n’est plus utile.",
-        goal: "Mettre en place une veille ciblée plutôt qu’une surveillance manuelle.",
-        projectStep: "Surveiller une date ou une disponibilité utile au projet.",
+          "Regroupez plusieurs ressources par thème, activez le suivi d’une page compatible, identifiez le changement attendu et désactivez le suivi lorsqu’il n’est plus utile.",
+        goal: "Organiser sa veille avec les groupes d’onglets et les notifications de changement.",
+        projectStep: "Créer le groupe d’onglets « Horizon - Veille » et surveiller une page clé.",
       },
       {
-        slug: "creer-extension-safari-langage-naturel",
-        title: "Créer une extension Safari en décrivant le besoin",
+        slug: "identifiants-passkeys-mots-de-passe",
+        title: "Retrouver ses identifiants, passkeys et codes dans Mots de passe",
         duration: "07:00",
         description:
-          "Décrivez une extension qui récupère le titre, l’adresse et le texte sélectionné d’une page, contrôlez ses permissions et testez son résultat.",
-        goal: "Créer une extension simple et compréhensible avec une solution manuelle de repli.",
-        projectStep: "Ajouter une source web proprement référencée à la note de veille.",
+          "Ouvrez l’app Mots de passe, retrouvez un identifiant fictif, utilisez une passkey ou un code de validation et partagez un accès en toute sécurité.",
+        goal: "Accéder rapidement à ses identifiants sans compromettre leur sécurité.",
+        projectStep: "Retrouver le compte utilisé pour partager le dossier client.",
       },
       {
-        slug: "securiser-acces-app-mots-de-passe",
-        title: "Sécuriser ses accès avec l’app Mots de passe",
+        slug: "corriger-mots-de-passe-compromis",
+        title: "Identifier et corriger les mots de passe faibles ou compromis",
         duration: "06:00",
         description:
-          "Retrouvez un identifiant fictif, utilisez une passkey ou un code de validation, repérez un mot de passe faible et effectuez une correction lorsque le site le permet.",
-        goal: "Diagnostiquer puis corriger un accès sans exposer de compte personnel.",
-        projectStep: "Sécuriser le service employé pour partager le dossier client.",
+          "Repérez les alertes de sécurité, identifiez un mot de passe faible ou réutilisé, effectuez une correction lorsque le site le permet et activez la modification automatique si disponible.",
+        goal: "Diagnostiquer puis corriger les accès vulnérables de manière méthodique.",
+        projectStep: "Sécuriser le service employé pour le projet Horizon.",
       },
     ],
   },
@@ -301,7 +303,7 @@ export const chapters: Chapter[] = [
     lessons: [
       {
         slug: "classer-retrouver-echanges-mail",
-        title: "Classer et retrouver les échanges importants dans Mail",
+        title: "Configurer, classer et retrouver ses e-mails dans Mail",
         duration: "07:00",
         description:
           "Recherchez par expéditeur ou pièce jointe, exploitez le classement par pertinence et rangez un échange dans une boîte projet en conservant l’accès à la source.",
@@ -310,7 +312,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "resumer-echange-rediger-reponse",
-        title: "Résumer un échange et rédiger une réponse professionnelle",
+        title: "Rédiger et résumer un message avec Apple Intelligence",
         duration: "07:00",
         description:
           "Générez un résumé, comparez-le au message original, préparez une réponse depuis la note validée et contrôlez destinataire, dates et pièces jointes.",
@@ -319,7 +321,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "planifier-reunion-rappels-langage-naturel",
-        title: "Planifier une réunion et ses rappels en langage naturel",
+        title: "Créer et modifier un événement à partir d’une description",
         duration: "07:00",
         description:
           "Créez un événement à partir d’une phrase, corrigez date, durée, lieu et participants, ajoutez un ordre du jour et vérifiez l’absence de conflit.",
@@ -328,7 +330,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "construire-note-reunion-exploitable",
-        title: "Construire une note de réunion exploitable",
+        title: "Structurer ses informations avec Notes et Rappels",
         duration: "07:00",
         description:
           "Structurez la note avec titres, checklist, liens et pièce jointe, puis séparez clairement faits, questions, décisions et actions.",
@@ -337,7 +339,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "raccourci-archivage-langage-naturel",
-        title: "Créer un raccourci d’archivage en langage naturel",
+        title: "Décrire puis automatiser une tâche avec Raccourcis",
         duration: "07:00",
         description:
           "Décrivez le workflow, examinez chaque action générée, choisissez le dossier cible, ajoutez une date au nom du fichier et testez le tout sur une copie.",
@@ -354,7 +356,7 @@ export const chapters: Chapter[] = [
     lessons: [
       {
         slug: "synchroniser-partager-icloud-drive",
-        title: "Synchroniser et partager le dossier avec iCloud Drive",
+        title: "Synchroniser, stocker et partager ses fichiers avec iCloud Drive",
         duration: "07:00",
         description:
           "Vérifiez l’état de synchronisation, rendez un fichier disponible hors ligne, partagez le dossier avec un rôle précis et modifiez ou révoquez un accès.",
@@ -363,7 +365,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "handoff-presse-papiers-universel",
-        title: "Poursuivre une tâche avec Handoff et le presse-papiers universel",
+        title: "Continuer son travail avec Handoff et le presse-papiers universel",
         duration: "06:00",
         description:
           "Commencez une consultation sur un appareil, reprenez-la sur le Mac et transférez un élément avec le presse-papiers universel.",
@@ -372,7 +374,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "utiliser-iphone-depuis-mac",
-        title: "Utiliser l’iPhone depuis le Mac sans perdre sa concentration",
+        title: "Utiliser la recopie de l’iPhone et ses notifications sur le Mac",
         duration: "07:00",
         description:
           "Utilisez la recopie de l’iPhone, ouvrez une app utile et gérez les notifications reçues sur le Mac en protégeant les données sensibles.",
@@ -389,7 +391,7 @@ export const chapters: Chapter[] = [
     lessons: [
       {
         slug: "proteger-session-touch-id-filevault",
-        title: "Protéger sa session avec Touch ID et FileVault",
+        title: "Sécuriser sa session avec Touch ID, FileVault et les bons réglages de compte",
         duration: "07:00",
         description:
           "Vérifiez le verrouillage automatique, configurez Touch ID, examinez l’état de FileVault et repérez les options de récupération.",
@@ -398,7 +400,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "controler-autorisations-mises-a-jour",
-        title: "Contrôler les autorisations et les mises à jour",
+        title: "Contrôler les autorisations des apps et installer les mises à jour",
         duration: "07:00",
         description:
           "Examinez les accès aux fichiers, au microphone, à l’écran et aux données des apps, retirez une permission inutile et configurez les mises à jour automatiques.",
@@ -407,7 +409,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "protections-essentielles-compte-enfant",
-        title: "Configurer les protections essentielles d’un compte enfant",
+        title: "Configurer les protections essentielles pour un compte enfant",
         duration: "06:00",
         description:
           "Définissez une limite simple, filtrez un contenu et présentez la Sécurité des communications depuis un compte familial de démonstration.",
@@ -416,7 +418,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "liberer-stockage-options-recuperation",
-        title: "Libérer du stockage et connaître les options de récupération",
+        title: "Libérer du stockage, contrôler le démarrage et utiliser la récupération",
         duration: "07:00",
         description:
           "Identifiez les fichiers volumineux, contrôlez les éléments d’ouverture, fermez une app bloquée et localisez les options de récupération.",
@@ -433,7 +435,7 @@ export const chapters: Chapter[] = [
     lessons: [
       {
         slug: "workflow-projet-horizon-bout-en-bout",
-        title: "Réaliser le workflow Projet Horizon de bout en bout",
+        title: "Préparer un dossier client avec Finder, Safari, Siri AI et Intelligence visuelle",
         duration: "07:00",
         description:
           "Repartez d’une nouvelle demande, retrouvez les sources, organisez les fichiers, analysez le brief et l’image puis vérifiez les informations retenues.",
@@ -442,7 +444,7 @@ export const chapters: Chapter[] = [
       },
       {
         slug: "livrer-partager-archiver-projet",
-        title: "Livrer, partager et archiver le projet",
+        title: "Planifier, partager et archiver les livrables du projet",
         duration: "06:00",
         description:
           "Finalisez l’e-mail et la réunion, contrôlez les droits iCloud, exécutez le raccourci d’archivage sur une copie et vérifiez le contenu de l’archive.",
